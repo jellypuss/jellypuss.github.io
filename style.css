@@ -7,7 +7,7 @@ body, html, p, form, ul, li, iframe {
 
 body {
 	background-color: #EAE5E5;
-	min-width: 740px;
+	min-width: 900px;
 	color: #606060;
 }
 
@@ -117,7 +117,7 @@ header {
 }
 
 header #top-bar { 
-	background-color: #606060;
+	background-color: #E83556;
 	height: 15px;
 }
 
@@ -351,8 +351,8 @@ section li {
 #rates img {
 	display: inline-block;
 	position: absolute;
-	top: 265px;
-	left: 530px;
+	top: 270px;
+	left: 500px;
 }
 
 /* ==================================================== */
@@ -378,17 +378,24 @@ section li {
 /* ==================================================== */
 /* ==================================================== */
 
-#finalthought .blockquote {
+#finalthought {
 	text-align: right;
+	margin: 20px 40px 20px 0;
+	font-size: 10pt;
 }
 
-#finalthought .quote {
-
+#finalthought h1 {
+	font-size: 28px;
+	margin: 0 0 18px 0;
 }
 
-#finalthought .source {
-	font-size: 12px;
+#finalthought h2 {
+	margin: 0;
+}
 
+#finalthought p {
+	font: normal normal normal 10pt 'Open Sans', serif;
+	line-height: 24px;
 }
 
 /* ==================================================== */
@@ -406,6 +413,14 @@ footer {
 /* ==================================================== */
 /* ==================================================== */
 
+h1.thanks {
+
+}
+
+p.thanks {
+	font-size: 14pt;
+	margin: 24px 0 0 0;
+}
 
 
 

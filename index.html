@@ -257,7 +257,7 @@
 
 			<div class="column2">
 				<div class="column">
-					<p><strong>Email:</strong> niarcampbell@gmail.com</p>
+					<p><strong>Contact:</strong> <a href="">hello@niacampbell.co.uk</a> | (+44) 0845 5919 222</p>
 					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d39753.289945964265!2d-3.1592259487013536!3d51.4842118004869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1394559618307" frameborder="0"></iframe>		
 				</div>
 			</div>
@@ -272,26 +272,15 @@
 
 		<section id="finalthought">
 
-			<div class="blockquote">
-				<p class="quote">&quot;One day I will find the right words, and they will be simple.&quot;</p>
-				<p class="source">— Jack Kerouac, <em>The Dharma Bums</em></p>
+			<div>
+				<h1>Word of the day</h1>
+				<h2 class="wotd"></h2>
+				<p class="definition"></p>
 			</div>
 
 		</section>
 
 	</div>
-
-	<!-- -->
-	<!-- -->
-	<!-- -->
-
-	<footer>
-		<div class="wrapper">
-			<h2>Word of the day</h2>
-			<p></p>
-			<p id="wotd"></p>
-		</div>
-	</footer>
 
 	<!-- -->
 	<!-- -->
@@ -306,7 +295,8 @@
             var word = data.responseData.feed.entries[0].title.replace(": Dictionary.com Word of the Day","");
             var definition = data.responseData.feed.entries[0].content;
 
-            $("#wotd").html("<strong>" + word + "</strong><br />" + "<em>" + definition + "</em>");
+            $(".wotd").html(word);
+            $('.definition').html("- " + definition + "");
         });
 
     </script>
