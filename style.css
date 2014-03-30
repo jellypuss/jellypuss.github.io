@@ -285,11 +285,13 @@ section li {
 	list-style: none;
 	text-align: center;
 	margin-top: 40px;
+	width: 80%;
+	margin: 0 auto;
 }
 
 #clients li {
 	display: inline;
-	padding: 0 20px;
+	padding: 0 25px;
 }
 
 #clients li.c1 img { margin-bottom: 20px; } /* caterquip */
@@ -298,6 +300,7 @@ section li {
 #clients li.c4 img { margin-bottom: 31px; } /* sock */
 #clients li.c5 img { margin-bottom:  0px; } /* stiwdio */
 #clients li.c6 img { margin-bottom: 26px; } /* woodstream */
+#clients li.c7 img { margin-bottom:  0px; } /* fixers */
 
 /* ==================================================== */
 /* ==================================================== */
