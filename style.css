@@ -294,15 +294,16 @@ section li {
 	padding: 0 25px;
 }
 
-#clients li.c1 img { margin-bottom: 0px; } /* caterquip */
+#clients li.c1 img { margin-bottom:  0px; } /* caterquip */
 #clients li.c2 img { margin-bottom: 12px; } /* helloseo */
-#clients li.c3 img { margin-bottom: 0px; } /* precedent */
+#clients li.c3 img { margin-bottom:  0px; } /* precedent */
 #clients li.c4 img { margin-bottom: 11px; } /* sock */
 #clients li.c5 img { margin-bottom:  0px; } /* stiwdio */
-#clients li.c6 img { margin-bottom: 6px; } /* woodstream */
+#clients li.c6 img { margin-bottom:  6px; } /* woodstream */
 #clients li.c7 img { margin-bottom:  0px; } /* fixers */
 #clients li.c8 img { margin-bottom:  0px; } /* actuaries */
 #clients li.c9 img { margin-bottom:  4px; } /* uwe bristol */
+#clients li.c0 img { margin-bottom:  0px; } /* Gloucestershire uni */
 
 /* ==================================================== */
 /* ==================================================== */
