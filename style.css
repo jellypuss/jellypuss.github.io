@@ -238,7 +238,7 @@ section li {
 	width: 320px;
 	height: 320px;
 	border-radius: 200px;
-	background: url('img/nia-darker-web.png') no-repeat;
+	background: url('img/edit1.png') no-repeat;
 	display: inline;
 }
 
@@ -304,6 +304,7 @@ section li {
 #clients li.c8 img { margin-bottom:  0px; } /* actuaries */
 #clients li.c9 img { margin-bottom:  4px; } /* uwe bristol */
 #clients li.c0 img { margin-bottom: 13px; } /* Gloucestershire uni */
+#clients li.c11 img { margin-bottom: 0px; } /* Applejacks */
 
 /* ==================================================== */
 /* ==================================================== */
