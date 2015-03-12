@@ -286,7 +286,7 @@ section li {
 	text-align: center;
 	margin-top: 40px;
 	margin: 0 auto;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 
 #clients li {
@@ -294,19 +294,22 @@ section li {
 	padding: 0 25px;
 }
 
-#clients li.c1 img { margin-bottom:  0px; } /* caterquip */
-#clients li.c2 img { margin-bottom: 12px; } /* helloseo */
-#clients li.c3 img { margin-bottom:  0px; } /* precedent */
-#clients li.c4 img { margin-bottom: 11px; } /* sock */
-#clients li.c5 img { margin-bottom:  0px; } /* stiwdio */
-#clients li.c6 img { margin-bottom:  6px; } /* woodstream */
-#clients li.c7 img { margin-bottom:  0px; } /* fixers */
-#clients li.c8 img { margin-bottom:  0px; } /* actuaries */
-#clients li.c9 img { margin-bottom:  4px; } /* uwe bristol */
-#clients li.c0 img { margin-bottom: 13px; } /* Gloucestershire uni */
+#clients li.c1 img  { margin-bottom:  0px; } /* caterquip */
+#clients li.c2 img  { margin-bottom: 12px; } /* helloseo */
+#clients li.c3 img  { margin-bottom: 12px; } /* precedent */
+#clients li.c4 img  { margin-bottom: 11px; } /* sock */
+#clients li.c5 img  { margin-bottom:  0px; } /* stiwdio */
+#clients li.c6 img  { margin-bottom:  6px; } /* woodstream */
+#clients li.c7 img  { margin-bottom:  0px; } /* fixers */
+#clients li.c8 img  { margin-bottom:  0px; } /* actuaries */
+#clients li.c9 img  { margin-bottom:  4px; } /* uwe bristol */
+#clients li.c0 img  { margin-bottom: 13px; } /* Gloucestershire uni */
 #clients li.c10 img { margin-bottom: 0px; } /* Applejacks */
 #clients li.c11 img { margin-bottom: 0px; } /* Xanthe Studios */
 #clients li.c12 img { margin-bottom: 6px; } /* Golley Slater */
+#clients li.c13 img { margin-bottom: 14px; } /* Tangent */
+#clients li.c14 img { margin-bottom:  6px; } /* University of Worcester */
+#clients li.c15 img { margin-bottom:  9px; } /* Nuance and Fathom */
 
 /* ==================================================== */
 /* ==================================================== */
