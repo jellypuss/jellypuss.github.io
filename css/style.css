@@ -145,8 +145,9 @@ h3 {
 /******/
 /******/
 
-#clients {
-	
+#medium_content img {
+	width: 100px;
+	height: 100px;
 }
 
 #clients h2 {
