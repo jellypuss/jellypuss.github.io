@@ -179,12 +179,14 @@
 		var mediumFeed = "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40niacampbell";
 
 		$.getJSON(mediumFeed, function(data) {
-			console.log(data);
 			let count = 0;
 			data.items.forEach(item => {
 				if (count >= 3) {
 					return;
-				} 
+				}
+				let mediumLink = $(document.createElement("a"));
+				mediumLink.attr("href", item.link);
+
 				let mediumItem = $(document.createElement("div"));
 				mediumItem.addClass("col-md-4");
 				mediumItem.addClass("medium_feed_item");
@@ -200,8 +202,9 @@
 				title.text(item.title);
 
 				mediumItem.append(title);
+				mediumLink.append(mediumItem)
 
-				$("#medium_content").append(mediumItem);
+				$("#medium_content").append(mediumLink);
 				count++;
 			});
 		});
