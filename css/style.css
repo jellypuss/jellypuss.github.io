@@ -146,8 +146,38 @@ h3 {
 /******/
 
 #medium_content img {
-	width: 100px;
-	height: 100px;
+	width: 100%;
+	height:100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	object-fit: cover;
+}
+
+#medium_content .medium_feed_title {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: white;
+	padding: 10px;
+	font-family: 'Roboto';
+	font-size: 11pt;
+	font-weight: bold;
+	color: #444;
+}
+
+#medium_content .medium_feed_item {
+	border: 1px solid #ddd;
+	height: 400px;
+	padding: 20px;
+	overflow: hidden;
+}
+
+#clients img {
+	width: 90%;
 }
 
 #clients h2 {
@@ -157,8 +187,6 @@ h3 {
 #clients .box {
 	width: 100%;
 	text-align: center;
-	background-color: #EAE5E5;
-	border: 1px solid #ddd;
 	padding: 20px 20px;
 }
 
